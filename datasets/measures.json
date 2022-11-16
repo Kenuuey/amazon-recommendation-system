@@ -1,0 +1,14 @@
+{
+	"num_books": 0,
+	"num_music": 0,
+	"num_sport": 0,
+	"max_out_degree": 0,
+	"max_in_degree": 0,
+	"max_in_degree_title": " ",
+	"reciprocity": 0,
+	"most_often_in_triangles_title": " ",
+	"largest_pagerank_title": " ",
+	"num_bundles": 0,
+	"num_music_bundles": 0,
+	"num_collections": 0
+}
