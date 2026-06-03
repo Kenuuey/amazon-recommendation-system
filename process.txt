@@ -1,0 +1,34 @@
++ create a venv on windows and linux and install requirements
+
++ spark session is not starting on windows env (can't load Java SparkSession class inside JVM)
+---> but it works on linux env
+
++ ipython kernel package is not installing on linux
++ venv requirements are not installing on linux
+
++ need to install graphframes for graph visualization
+
+- need to create a graph
+(it's not possible to create it because of incompatible versions of pyspark, graphframes jar, scala)
+
+Incompatible:
+PySpark 4.1.2
+Scala 2.13
+GraphFrames 0.10.0 / Spark3_2.12
+
+I installed pyspark==3.5.5
+
+
+INCOMPABILITY OF VERSIONS
+
+from graphframes import GraphFrame
+g = GraphFrame(vertices, edges)
+
+---> ClassNotFoundException: org.graphframes.GraphFramePythonAPI
+
+Spark can't find JARs
+
+JAR GraphFrames НЕ загружен или НЕ совместим с Spark
+
+
+what next?
